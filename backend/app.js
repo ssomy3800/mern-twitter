@@ -1,6 +1,6 @@
 require('./models/User');
 require('./config/passport');
-
+require('./models/Tweet'); 
 const passport = require('passport');
 
 const express = require("express");
